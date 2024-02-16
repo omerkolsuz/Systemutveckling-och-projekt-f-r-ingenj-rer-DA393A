@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Highscore List</title>
+    <link rel="stylesheet" href="highscore.css">
+  </head>
+  <body onload="displayHighScoreList()"> <!-- Call displayHighScoreList() function on page load -->
+    <div class="container">
+      <h1>Highscore List:</h1>
+      <div class="notepad">
+        <ul id="highScoreList">
+        </ul>
+      </div>
+    </div>
+    <script src="app.js"></script>
+    <script src="https://cdn.socket.io/4.0.0/socket.io.min.js"></script>
+  </body>
+</html>
